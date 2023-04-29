@@ -1,0 +1,25 @@
+/* header-page */
+
+.header-page{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.header-menu ul{
+    display: flex;
+    gap:20px; /* espaçamento entre os elementos, e nmão nas extremidades  */
+
+}
+
+.header-page a {
+    color: black;
+}
