@@ -11,18 +11,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;600&display=swap" rel="stylesheet">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Chamada dos CSS´s -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/headers.css">
     <link rel="stylesheet" href="./assets/css/hero.css">
     <link rel="stylesheet" href="./assets/css/cards.css">
+    <link rel="stylesheet" href="./assets/css/keyframes.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body>
 
     <!-- menu principal -->
     <header class="header-page">
-        <h1>Wine Agnello</h1> 
+        <h1>Wine Agnello</h1>
         <nav class="header-menu">
             <ul>
                 <li><a href="#container1">Link1</a></li>
@@ -33,18 +38,22 @@
         </nav>
     </header>
 
-    
+
 
     <!-- hero -->
     <div class="container bg-image-1" id="container1">
-            <div class="hero">
-                <h2 class="hero-title">Wine Agnello</h2>
-                <p class="hero-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deserunt aut laborum dicta consequatur optio
-                    vitae eaque voluptatibus dolores officia.
-                </p>
-                <a href="" class="btn">Fazer um Tour</a>
-            </div>
+        <div class="hero">
+            <h2 class="hero-title">Wine Agnello</h2>
+            <p class="hero-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deserunt aut laborum dicta consequatur optio
+                vitae eaque voluptatibus dolores officia.
+            </p>
+            <a href="" class="btn">Fazer um Tour
+                <i class="fa-solid fa-circle-down arrow"></i>
+                <!-- é um icone feito em texto, posso mudra no css tanto o tamanho quanto cor, 
+                com font size e color no css -->
+            </a>
+        </div>
     </div>
 
     <div class="container-cards bg-dark" id="container2">
@@ -52,7 +61,8 @@
         <div class="card-item">
             <img src="./assets/images/vinhos/pexels-jack-williams-12582808.jpg" alt="Vinho jack Wiliams">
             <h3>Nome Vinho</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?
+            </p>
             <a href="" class="btn">Comprar Agora</a>
         </div>
 
@@ -60,7 +70,8 @@
         <div class="card-item">
             <img src="./assets/images/vinhos/pexels-jack-williams-12582823.jpg" alt="Vinho jack Wiliams">
             <h3>Nome Vinho</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?
+            </p>
             <a href="" class="btn">Comprar Agora</a>
         </div>
 
@@ -68,7 +79,8 @@
         <div class="card-item">
             <img src="./assets/images/vinhos/pexels-markus-spiske-121191.jpg" alt="Vinho jack Wiliams">
             <h3>Nome Vinho</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?
+            </p>
             <a href="" class="btn">Comprar Agora</a>
         </div>
 
@@ -76,14 +88,16 @@
         <div class="card-item">
             <img src="./assets/images/vinhos/pexels-matthew-hintz-1712737.jpg" alt="Vinho jack Wiliams">
             <h3>Nome Vinho</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?
+            </p>
             <a href="" class="btn">Comprar Agora</a>
         </div>
         <!--  5°vinho -->
         <div class="card-item">
             <img src="./assets/images/vinhos/pexels-jack-williams-12582808.jpg" alt="Vinho jack Wiliams">
             <h3>Nome Vinho</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?
+            </p>
             <a href="" class="btn">Comprar Agora</a>
         </div>
 
@@ -91,7 +105,8 @@
         <div class="card-item">
             <img src="./assets/images/vinhos/pexels-jack-williams-12582823.jpg" alt="Vinho jack Wiliams">
             <h3>Nome Vinho</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?
+            </p>
             <a href="" class="btn">Comprar Agora</a>
         </div>
 
@@ -99,7 +114,8 @@
         <div class="card-item">
             <img src="./assets/images/vinhos/pexels-markus-spiske-121191.jpg" alt="Vinho jack Wiliams">
             <h3>Nome Vinho</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?
+            </p>
             <a href="" class="btn">Comprar Agora</a>
         </div>
 
@@ -107,27 +123,29 @@
         <div class="card-item">
             <img src="./assets/images/vinhos/pexels-matthew-hintz-1712737.jpg" alt="Vinho jack Wiliams">
             <h3>Nome Vinho</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?
+            </p>
             <a href="" class="btn">Comprar Agora</a>
         </div>
 
-         <!--  9°vinho -->
-         <div class="card-item">
+        <!--  9°vinho -->
+        <div class="card-item">
             <img src="./assets/images/vinhos/pexels-jack-williams-12582823.jpg" alt="Vinho jack Wiliams">
             <h3>Nome Vinho</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, voluptas! Temporibus, assumenda?
+            </p>
             <a href="" class="btn">Comprar Agora</a>
         </div>
 
 
-        
+
     </div>
 
     <div class="container bg-image-2" id="container3"></div>
-    
+
     <div class="container bg-dark" id="container4"></div>
 
-<script src="./assets/js/scroll.js"></script>
+    <script src="./assets/js/scroll.js"></script>
 </body>
 
 </html>
