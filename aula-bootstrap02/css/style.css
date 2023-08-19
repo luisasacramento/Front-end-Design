@@ -1,0 +1,35 @@
+:root{
+    --fonte-body:font-family: 'Ubuntu', sans-serif;
+    --color-blue: #336699;
+    --color-pink:#dc143c;
+}
+
+body{
+    font-family: var(--fonte-body);
+}
+
+.text-blue{color: var(--color-blue);}
+.text-pink{color: var(--color-pink);}
+
+.bg-pink{background-color: var(--color-pink);}
+.height-50{min-height: 50vh;}
+
+
+.logo-menu{
+    font-size: 25px;
+    color: var(--color-blue);
+    font-weight: 500;
+}
+
+.header button .navbar-toggler{
+    box-shadow: none;
+}
+
+
+.nav-link{
+    font-weight: 600;
+}
+ 
+.nav-link:hover, .logo-menu:hover{
+    color: var(--color-blue);
+}
