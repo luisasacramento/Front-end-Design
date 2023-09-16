@@ -33,3 +33,8 @@ body{
 .nav-link:hover, .logo-menu:hover{
     color: var(--color-blue);
 }
+
+textarea{
+    resize: none;
+    height: 150px;
+}
