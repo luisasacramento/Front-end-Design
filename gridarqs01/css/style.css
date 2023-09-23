@@ -80,3 +80,14 @@ o espaço da linha, Para Funcionar rlr precisa do minmax */
 .exemplo04{
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
+
+/* auto-fill - igual ao auto-fit, so que ele não preenche a linha 
+PRECISA DE MINMAX*/
+.exemplo05{
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 20rem));
+}
+
+/* rows */
+.exemplo06{
+    grid-template-rows: 1fr 3fr 4fr 2fr;
+}
