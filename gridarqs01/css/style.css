@@ -72,3 +72,11 @@ h2 {
 .exemplo03{
     grid-template-columns: minmax(100rem, 1fr) 2fr 1fr 5rem;
 }
+
+/* auto-fit - colocar o máximo de items em uma mesma linha - 
+Esticar os containers - caso eles sejam pequenos, preenche automaticamente 
+o espaço da linha, Para Funcionar rlr precisa do minmax */
+
+.exemplo04{
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
