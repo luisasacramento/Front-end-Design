@@ -18,5 +18,63 @@ body {
     background-color: #333;
     margin: 20px auto;
     width: 90%;
-  }
+    min-height: 95vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+        "box1    box1   box1"
+        "box2    box2   box3"
+        "box2    box2   box3"
+        "box4    box5   box5"
+        "box4    box5   box5"
+        "box6    box6   box6"
+    ;
+}
 
+.box{
+background-color:#ccc;
+}
+
+.box1{grid-area: box1;background-color: #D83F31}
+.box2{grid-area: box2;background-color: #EE9322}
+.box3{grid-area: box3;background-color: #E9B824}
+.box4{grid-area: box4; background-color: #219C90}
+.box5{grid-area: box5; background-color: #3085C3}
+.box6{grid-area: box6; background-color: #9D76C1}
+
+/* box1{
+    background-color: #D83F31;
+    grid-area: box1;
+    
+}
+
+box2{
+    background-color: #EE9322;
+    grid-area: box2;
+    
+}
+
+box3{
+    background-color: #E9B824;
+    grid-area: box3;
+    
+}
+
+box4{
+    background-color: #219C90;
+    grid-area: box4;
+}
+
+box5{
+    background-color: #3085C3;
+    grid-area: box5;
+}
+
+box6{
+    background-color: #9D76C1;
+    grid-area: box6;
+}
+
+
+ */
