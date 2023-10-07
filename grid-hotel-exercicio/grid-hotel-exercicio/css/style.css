@@ -121,3 +121,34 @@ html {
 .picture-g18 {
     grid-area: img18;
 }
+
+@media(max-width:768px){
+    .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "img1 img1"
+    "img1 img1"
+    "img2 img3"
+    "img4 img4"
+    "img4 img4"
+    "img5 img6"
+    "img7 img7"
+    "img7 img7"
+    "img7 img7"
+    "img8 img8"
+    "img8 img8"
+    "img9 img10"
+    "img13 img13"
+    "img13 img13"
+    "img15 img16"
+    "img14 img14"
+    "img14 img14"
+    "img11 img12"
+    "img17 img17"
+    "img18 img18"
+    "img18 img18"; 
+    gap: 0.8rem;
+    }
+
+}
