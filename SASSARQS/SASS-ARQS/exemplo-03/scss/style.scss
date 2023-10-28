@@ -1,0 +1,37 @@
+body{
+    font-family: calibri;
+
+    .container{
+        width: 80%;
+        min-height: 50vh;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 20px auto;
+        background-color: #ccc;
+
+        h3{
+            color: #dc143c;
+            font-size: 2.5rem;
+
+        }
+
+        p{
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        a{
+            text-decoration: none;
+            background-color: #dc143c;
+            color:#fff;
+            padding: 10px;
+            border-radius: 7px;
+            border: 2px solid #dc143c;
+
+            &:hover{
+                background-color: transparent;
+                color: #dc143c;
+            }
+        }
+    }
+}
