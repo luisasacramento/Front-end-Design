@@ -48,4 +48,27 @@ body{
             margin: 10px;
         }
     }
+
+    .btn{
+        width: 100px;
+        height: 30px;
+        border: 1px solid #333;
+        color: #fff;
+
+        &:hover{
+            color: #000;
+            cursor: pointer;
+        }
+
+        &-danger{
+            background-color: #900;
+        }
+        &-info{
+            background-color: #336699;
+
+        }
+        &-warning{
+            background-color: #fff660;
+        }
+    }
 }
